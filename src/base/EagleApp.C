@@ -28,6 +28,7 @@ EagleApp::~EagleApp()
 {
 }
 
+extern "C" void EagleApp__registerApps() { EagleApp::registerApps(); }
 void
 EagleApp::registerApps()
 {
